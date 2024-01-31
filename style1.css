@@ -4,7 +4,7 @@
 }
 .containt{
     width: 100%;
-    height: auto;
+    height: 2200px;
     margin: auto;
     position: relative;
 
@@ -62,7 +62,7 @@
 }
 .menu-bar{
     width: 100%;
-    height: auto;
+    height: 2050px;
     background-color: rgb(241, 222, 198);
     position: absolute;
     top: 50px;
@@ -70,7 +70,7 @@
 }
 .box{
     width: 1200px;
-    height: auto;
+    height: 2050px;
     overflow: hidden;
     margin: auto;
 }
@@ -155,12 +155,13 @@
 .menu-bar1-2 ul li{
     line-height: 40px;
 }
-.footer{
+#footer{
     width: 100%;
     height: 50px;
-    text-align: center;
-    background-color:blue;
+    position: absolute;
+    left: 0;
     bottom: 0;
+    text-align: center;
 }
 #footer ul{
     list-style-type: none;
