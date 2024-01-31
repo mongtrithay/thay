@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.containt{
+    width: 100%;
+    height: 2200px;
+    margin: auto;
+    position: relative;
+
+}
+.logo{
+    width: 50%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    float: left;
+    margin-top: 10px;
+}
+.logo img{
+    width: 40px;
+    margin-left: 10px;
+}
+.logo h1{
+    margin-left: 10px;
+}
+.logo p{
+    margin-left: 10px;
+}
+.menu{
+    width: 50%;
+    height: 50px;
+    background-color: white;
+    float: left;
+    margin-top: 10px;
+}
+.menu UL{
+    list-style-type: none;
+    display: flex;
+    float:right;
+}
+.menu ul li{
+    display: flex;
+}
+.menu ul li a{
+    display: block;
+    padding: 5px;
+    margin: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-size: 20px;
+}
+.menu ul li a:hover{
+    background-color: aqua;
+    color: white;
+    border-radius: 10px;
+
+}
+.menu-bar{
+    width: 100%;
+    height: 2050px;
+    background-color: rgb(241, 222, 198);
+    position: absolute;
+    top: 50px;
+    margin: 20px 0;
+}
+.box{
+    width: 1200px;
+    height: 2050px;
+    overflow: hidden;
+    margin: auto;
+}
+.box h1{
+    margin-top: 20px;
+}
+.menu-bar-1{
+    margin: auto;
+    width: 200px;
+    height: 50px;
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+}
+.menu-bar-1 img{
+    height: 30px;
+    width: 30px;
+    margin-top: 20px;
+}
+.menu-bar1{
+    width: 1100px;
+    height: 400px;
+    background-color: white;
+    margin: auto;
+    margin-top: 100px;
+    box-shadow:2px 2px 20px;
+}
+.menu-bar1-1{
+    width: 50%;
+    height: 100%;
+    float: left;
+    text-align: center;
+}
+.menu-bar1-1 h1{
+    color: blue;
+    margin-top: 150px;
+}
+.menu-bar1-2{
+    width: 50%;
+    height: 100%;
+    float: left;
+    
+}
+.menu-bar1-2 ul{
+    margin: 100px;
+    font-size: 25px;
+}
+#footer{
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+}
+#footer ul{
+    list-style-type: none;
+    float: right;
+}
+#footer ul li{
+    float: left;
+    margin-right: 20px;
+    padding: 10px;
+}
